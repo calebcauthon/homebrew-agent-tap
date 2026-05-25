@@ -2,7 +2,7 @@ class Agent < Formula
   desc "Docker-backed isolated coding-agent rooms"
   homepage "https://github.com/calebcauthon/agent"
   url "https://github.com/calebcauthon/agent.git", branch: "main"
-  version "0.1.0"
+  version "0.1.1"
   head "https://github.com/calebcauthon/agent.git", branch: "main"
 
   depends_on "docker"
