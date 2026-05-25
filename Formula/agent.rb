@@ -1,9 +1,9 @@
 class Agent < Formula
   desc "Docker-backed isolated coding-agent rooms"
   homepage "https://github.com/calebcauthon/agent"
-  url "https://github.com/calebcauthon/agent/archive/refs/tags/v0.1.3.tar.gz", branch: "main"
-  sha256 "040f600a7acf6e8f7c4408c1620392862bfac5bb6dcc3abfa04486d65d4a577b"
-  version "0.1.3"
+  url "https://github.com/calebcauthon/agent/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "c5f98ec20c040f16f2300713e477bf2f36d7eceb17d9a5ce143c3e3238a96804"
+  version "0.1.4"
   head "https://github.com/calebcauthon/agent.git", branch: "main"
 
   depends_on "docker"
